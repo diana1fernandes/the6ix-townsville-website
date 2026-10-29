@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title> Indroducing me</title>
+	
+	<style>
+		body { 
+			background-color: BlanchedAlmond;
+			} 
+		#menu-button {
+			position: fixed;
+			curson: pointer;
+			}
+	</style>
+	
+	</head>
+	
+	<body>
+	<button id="menu-button" onclick= "toggleMenu()">
+	</button>
+	
+	<nav id="Villagers">
+		<a href="index.html">Diana</a>
+		<a href="caleb.html">Caleb</a>
+		<a href="register.html">Register as a villager</a>
+	</nav>
+	
+	<title> Right-Aligned menu bar</title>
+	<h2 style="color: SlateBlue; "> <center> Hello there! Welcome to the6ix Townsville!! </center> </h>
+	<h4 style="color: SlateBlue; "> <center> You seem new here. This is your chance to make a new friend. <br>Walk around and talk to people.</br> </center> </h>
+	<p style="color: DarkOrchid;" > YOU: "Heyyyoooooo! Your fit's fiiireeee! <br> Who are you?! What do you do?!" </br> </p>
+	
+	<center> <img src="introducing me.png" 
+	alt="an illustration of a gurl in a canadian tux"
+	width="600">
+	
+	<p style="color: DeepPink;" > <i> D: "Okaaay, let's do this one last time. <br>Yeah, for real this time. This is it. </br> My name is Diana Fernandes. I was NOT bitten by a radioactive spider" <br> I have worked as a lighting and comp artist. </br> Im also a illustrator - comic book artist and have had my art displayed in 3 art shows around the village. <br> We could go watch a movie and get icecream if youd like? </br>  </i> </p> </center>
+	
+	<p style="color: DarkOrchid;" > <i>YOU: roll your eyes </i> <br> I dunno man you sound like a nerd to me... </br> <i> takes a few steps back </i> </p>
+	
+	
+	<center> <img src="friend.png" 
+	alt="an illustration of a gurl in glasses with music symbols around."
+	width="600"> 
+	</center>
+	
+	<h4 style="color: SlateBlue; "> <center> Would you like to get to know Diana a bit more?! </center> </h>
+	<br> <center> 
+		<button 
+		style = "background-color: CornflowerBlue;" 
+		type="button" 
+		onclick= "window.open('https://www.dianafernandes.com/about','_blank')">
+		Hell yeaaa  
+		</button>
+		<button 
+		style = "background-color: CornflowerBlue;" 
+		type="button"
+		onclick= "window.open('https://tenor.com/en-GB/view/you-can-do-it-suck-gif-22600073','_blank')">
+		 nerds?! hell nahhhh 
+	</button> 
+	</br> 
+	</center>
+
+</body>
+</html>
