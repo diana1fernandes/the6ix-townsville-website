@@ -1,0 +1,130 @@
+body {
+	background-color: BlanchedAlmond;
+	font-family: TimesNewRoman, serif;
+	margin: 0;
+	padding; 20px;
+}
+
+h1, h2, h3 {
+	color: SlateBlue;
+	text-align: center;
+}
+
+p {
+	color: DeepPink;
+}
+
+#welcome-heading {
+	color: SlateBlue;
+	font-size: 32px;
+	text-align: center;
+}
+
+#menu-button {
+	background-color: CornflowerBlue;
+	border: 2px solid SlateBlue;
+	border-radius: 8px;
+	padding: 10px 15px;
+	cursor: pointer;
+	position: fixed:
+	top: 10px;
+	right: 10px;
+}
+	
+#Villagers {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	
+	background-color: SlateBlue;
+	padding: 15px:
+}
+
+#Villagers a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#Villagers a:hover {
+	color: Gold;
+}
+
+.intor-text {
+	color: DarkOrchid;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.profile-card {
+	background-color: OldLace;
+	border: 3px solid SlateBlue;
+	border-radius: 15px;
+	padding: 25px;
+	margin: 30px auto;
+	max-width: 800px;
+	box-sizing: border-box;
+	text-align: center:
+}
+
+.character-image {
+	width: 100%;
+	max-width: 600px;
+	height: auto:
+	border-radius: 12px;
+}
+
+.profile-layout {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+.profile-layout img {
+	width: 45%;
+	height: auto;
+}
+
+.profile-description {
+	flex: 1;
+	text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		padding: 10px;
+	}
+	
+	#welcome-heading {
+	font-size: 24px;
+	}
+	
+	#Villagers {
+		flex-direction: column;
+		gap: 15px;
+	}
+	
+	.profile-layout {
+		flex-direction: column;
+	}
+	
+	.profile-layout img {
+	width: 100%;
+	}
+	
+	.profile-description {
+		text-align: center;
+	}
+	
+	.profile-card {
+		padding: 15px;
+		margin: 15px auto;
+	}
+	
+	.into-text {
+		font-size: 16px;
+	}
+	
+}
