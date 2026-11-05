@@ -3,17 +3,8 @@
 <head>
 
 	<meta charset="UTF-8">
-	<title> Indroducing me</title>
-	
-	<style>
-		body { 
-			background-color: BlanchedAlmond;
-			} 
-		#menu-button {
-			position: fixed;
-			curson: pointer;
-			}
-	</style>
+	<title> The6ix Townsville</title>
+	<link rel="stylesheet" href="style.css">
 	
 	</head>
 	

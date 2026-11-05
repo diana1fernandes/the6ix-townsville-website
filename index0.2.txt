@@ -3,17 +3,9 @@
 <head>
 
 	<meta charset="UTF-8">
-	<title> Indroducing me</title>
-	
-	<style>
-		body { 
-			background-color: BlanchedAlmond;
-			} 
-		#menu-button {
-			position: fixed;
-			curson: pointer;
-			}
-	</style>
+	<title> The6ix Townsville</title>
+	<link rel="stylesheet" href="style.css">
+
 	
 	</head>
 	
@@ -22,13 +14,14 @@
 	</button>
 	
 	<nav id="Villagers">
-		<a href="index.html">Diana</a>
+		<a href="index0.2.html">Diana</a>
 		<a href="caleb.html">Caleb</a>
 		<a href="register.html">Register as a villager</a>
 	</nav>
 	
-	<title> Right-Aligned menu bar</title>
-	<h2 style="color: SlateBlue; "> <center> Hello there! Welcome to the6ix Townsville!! </center> </h>
+	<h2 id="welcome-heading"> 
+		Hello there! Welcome to the6ix Townsville!! 
+	</h2>
 	<h4 style="color: SlateBlue; "> <center> You seem new here. This is your chance to make a new friend. <br>Walk around and talk to people.</br> </center> </h>
 	<p style="color: DarkOrchid;" > YOU: "Heyyyoooooo! Your fit's fiiireeee! <br> Who are you?! What do you do?!" </br> </p>
 	
