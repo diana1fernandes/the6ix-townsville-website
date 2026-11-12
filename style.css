@@ -200,3 +200,73 @@ p {
 		object-fit: contain;
 	}
 }
+
+body.dark-mode {
+	background-color: MidnightBlue;
+	color: white;
+}
+#theme-button {
+	background-color: Plum;
+	color: white;
+	border: 2px solid SlateBlue;
+	border-radius: 10px;
+	padding: 12px 20px;
+	font-size: 16px;
+	font-family: "Times New Roman", serif;
+	cursor: pointer;
+}
+
+#theme-button:hover {
+	background-color: HotPink:
+	color: white;
+}
+
+body.dark-mode #theme-button {
+	background-color: SlateBlue;
+	border-color: Plum;
+	color: white;
+}
+
+#greeting-button {
+	background-color: Plum;
+	color: white;
+	border: 2px solid SlateBlue;
+	border-radius: 10px;
+	padding: 12px 20px;
+	font-size: 16px;
+	font-family: "Times New Roman", serif;
+	cursor: pointer;
+}
+
+#greeting-button:hover {
+	background-color: HotPink:
+	color: white;
+}
+
+body.dark-mode #theme-button {
+	background-color: SlateBlue;
+	border-color: Plum;
+	color: white;
+}
+
+#fact-button {
+	background-color: Plum;
+	color: white;
+	border: 2px solid SlateBlue;
+	border-radius: 10px;
+	padding: 12px 20px;
+	font-size: 16px;
+	font-family: "Times New Roman", serif;
+	cursor: pointer;
+}
+
+#fact-button:hover {
+	background-color:  HotPink:
+	color: white;
+}
+
+body.dark-mode #fact-button {
+	background-color: SlateBlue;
+	border-color: Plum;
+	color: white;
+}
