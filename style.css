@@ -270,3 +270,25 @@ body.dark-mode #fact-button {
 	border-color: Plum;
 	color: white;
 }
+
+#cat-fact-button {
+	background-color:Plum;
+	color: white;
+	border: 2px solid SlateBlue;
+	border-radius: 10px;
+	padding: 12px 20px;
+	font-size: 16px;
+	font-family: "Times New Roman", serid;
+	cursor: pointer;
+}
+
+#cat-fact-button:hover {
+	background-color: HotPink;
+	color: white;
+}
+
+body.dark-mode #cat-fact-button {
+	background-color: SlateBlue;
+	border-color: Plum;
+	color: white;
+}
